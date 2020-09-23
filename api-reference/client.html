@@ -7,7 +7,7 @@
     <meta name="generator" content="VuePress 1.5.4">
     <link rel="icon" href="/line-bot-sdk-nodejs/favicon.ico">
     <meta name="description" content="Node.js SDK for LINE Messaging API">
-    <link rel="preload" href="/line-bot-sdk-nodejs/assets/css/0.styles.6b0c1fe7.css" as="style"><link rel="preload" href="/line-bot-sdk-nodejs/assets/js/app.d1b9c229.js" as="script"><link rel="preload" href="/line-bot-sdk-nodejs/assets/js/2.69494ca4.js" as="script"><link rel="preload" href="/line-bot-sdk-nodejs/assets/js/8.53e52193.js" as="script"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/10.ceb8dbb4.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/11.54fda15e.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/12.f7835dac.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/13.b111b03e.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/14.16eff45f.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/15.f34903d1.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/16.5315d1e2.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/17.64c3b1ae.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/18.a4878294.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/19.581c3234.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/20.6b34ae24.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/21.53e71ca9.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/3.e0637fce.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/4.5ed19beb.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/5.ebd705b7.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/6.8f8fceab.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/7.453304fb.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/9.69f05f48.js">
+    <link rel="preload" href="/line-bot-sdk-nodejs/assets/css/0.styles.6b0c1fe7.css" as="style"><link rel="preload" href="/line-bot-sdk-nodejs/assets/js/app.ce978e5c.js" as="script"><link rel="preload" href="/line-bot-sdk-nodejs/assets/js/2.69494ca4.js" as="script"><link rel="preload" href="/line-bot-sdk-nodejs/assets/js/8.6110a1a9.js" as="script"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/10.ceb8dbb4.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/11.54fda15e.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/12.f7835dac.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/13.b111b03e.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/14.16eff45f.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/15.f34903d1.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/16.5315d1e2.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/17.64c3b1ae.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/18.a4878294.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/19.581c3234.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/20.6b34ae24.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/21.53e71ca9.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/3.e0637fce.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/4.5ed19beb.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/5.ebd705b7.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/6.8f8fceab.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/7.f72d7752.js"><link rel="prefetch" href="/line-bot-sdk-nodejs/assets/js/9.100f0987.js">
     <link rel="stylesheet" href="/line-bot-sdk-nodejs/assets/css/0.styles.6b0c1fe7.css">
   </head>
   <body>
@@ -117,8 +117,8 @@ corresponding to <a href="https://developers.line.biz/en/reference/messaging-api
   <span class="token comment">// AudienceGroup</span>
   <span class="token function">createUploadAudienceGroup</span><span class="token punctuation">(</span>uploadAudienceGroup<span class="token operator">:</span> <span class="token punctuation">{</span>
     description<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
-    isIfaAudience<span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
-    audiences<span class="token operator">:</span> <span class="token punctuation">{</span> id<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">}</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    isIfaAudience<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
+    audiences<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">{</span> id<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">}</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
     uploadDescription<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token builtin">Promise</span><span class="token operator">&lt;</span><span class="token punctuation">{</span>
       audienceGroupId<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
@@ -127,6 +127,17 @@ corresponding to <a href="https://developers.line.biz/en/reference/messaging-api
       created<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
       requestId<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span><span class="token operator">&gt;</span>
+  <span class="token function">createUploadAudienceGroupByFile</span><span class="token punctuation">(</span>uploadAudienceGroup<span class="token operator">:</span> <span class="token punctuation">{</span>
+    description<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    isIfaAudience<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
+    uploadDescription<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    file<span class="token operator">:</span> Buffer <span class="token operator">|</span> Readable<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token builtin">Promise</span><span class="token operator">&lt;</span><span class="token punctuation">{</span>
+      audienceGroupId<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+      <span class="token keyword">type</span><span class="token operator">:</span> <span class="token string">&quot;UPLOAD&quot;</span><span class="token punctuation">;</span>
+      description<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+      created<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token operator">&gt;</span>
   <span class="token function">updateUploadAudienceGroup</span><span class="token punctuation">(</span>
     uploadAudienceGroup<span class="token operator">:</span> <span class="token punctuation">{</span>
       audienceGroupId<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
@@ -134,8 +145,18 @@ corresponding to <a href="https://developers.line.biz/en/reference/messaging-api
       uploadDescription<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
       audiences<span class="token operator">:</span> <span class="token punctuation">{</span> id<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">}</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// for set request timeout</span>
     httpConfig<span class="token operator">?</span><span class="token operator">:</span> Partial<span class="token operator">&lt;</span>AxiosRequestConfig<span class="token operator">&gt;</span><span class="token punctuation">,</span>
-  <span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">Promise</span><span class="token operator">&lt;</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token builtin">Promise</span><span class="token operator">&lt;</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+  <span class="token function">createUploadAudienceGroupByFile</span><span class="token punctuation">(</span>
+    uploadAudienceGroup<span class="token operator">:</span> <span class="token punctuation">{</span>
+      audienceGroupId<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+      uploadDescription<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+      file<span class="token operator">:</span> Buffer <span class="token operator">|</span> Readable<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// for set request timeout</span>
+    httpConfig<span class="token operator">?</span><span class="token operator">:</span> Partial<span class="token operator">&lt;</span>AxiosRequestConfig<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token builtin">Promise</span><span class="token operator">&lt;</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
   <span class="token function">createClickAudienceGroup</span><span class="token punctuation">(</span>clickAudienceGroup<span class="token operator">:</span> <span class="token punctuation">{</span>
     description<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
     requestId<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
@@ -335,6 +356,6 @@ the number of messages sent from LINE@ Manager.</p> <div class="language-js extr
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/line-bot-sdk-nodejs/assets/js/app.d1b9c229.js" defer></script><script src="/line-bot-sdk-nodejs/assets/js/2.69494ca4.js" defer></script><script src="/line-bot-sdk-nodejs/assets/js/8.53e52193.js" defer></script>
+    <script src="/line-bot-sdk-nodejs/assets/js/app.ce978e5c.js" defer></script><script src="/line-bot-sdk-nodejs/assets/js/2.69494ca4.js" defer></script><script src="/line-bot-sdk-nodejs/assets/js/8.6110a1a9.js" defer></script>
   </body>
 </html>
